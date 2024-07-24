@@ -1,0 +1,200 @@
+* {
+    margin: 0;
+    font-family: sans-serif;
+}
+body {
+    background-image: url('img/alunalun1.png');
+    background-size: 100%;
+    height: auto
+}
+/*Box navigasi-awal*/
+.header-nav {
+    background-color: #D9D9D9;
+    background: linear-gradient(90deg, rgb(190, 190, 190) 0%, 
+    rgb(212, 212, 212) 100%);
+    height: 65px;
+    width: 90%;
+    padding: 0;
+    margin-top: 20px;
+    margin-left: auto;
+    margin-right: auto;
+    overflow: hidden;
+    opacity: 85%;
+    border-radius: 15px;
+    font-family: sans-serif;
+}
+ul{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow:hidden;        
+}
+li{
+    float: right;
+}
+li a{
+    color: black;
+    display: block;
+    padding: 25px 45px;
+    text-decoration: none;
+    font-size: 13px;
+    font-weight: bold;
+}
+li a:hover{
+    background-color: black;
+    color: #ffffff;
+    border-radius: 12px;
+}
+.nav a:hover:not(.active) {
+    color: #ffffff;
+}
+.active {
+    background-color: rgb(255, 255, 255);
+    color: rgb(0, 0, 0);
+    border-radius: 12px;
+}
+li.dropdown {
+    display: inline-block;
+}
+.dropdown:hover .isi-dropdown {
+    display: block;
+}
+
+.isi-dropdown a:hover {
+    color: #fff ;
+}
+.isi-dropdown {
+    height: auto;
+    width: auto;
+    position: absolute;
+    display: none;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+    background-color: #f9f9f9;
+    background: linear-gradient(90deg, rgb(196, 196, 196) 0%, 
+    rgb(217, 217, 217) 100%);
+    border-radius: 15px;
+}
+
+.isi-dropdown a {       /*warna tulisan dropdown*/
+    color: #000000 ;
+    text-align: center;
+}
+
+.isi-dropdown a:hover {
+    text-align: center;
+    color: #ffffff ;        /*warna tullisan dropdown ketika di hover*/
+    background: #000000 ;
+    height: auto;
+    width: auto;
+}
+.judul {
+    float:initial;
+}
+.search {               /*Box Input*/
+    width: 280px;
+    height: 45px;
+    border-radius: 25px;
+    font-size: 13px;
+    text-align: center;
+    margin-top: 7px;
+    margin-right: 60px;
+    float: right;
+    box-shadow: 3px 3px 3px;
+}
+.lambangpekalongan {        /*Logo Pekalongan*/
+    background-size: cover;
+    margin-left: 30px;
+    float: none;
+}
+/*Box navigasi akhir*/
+h1 {                   /*Desc Judul*/
+    text-align: center;
+    height: 55px;
+    color: #ffffff;
+    margin-top: 150px;
+}
+h2 {
+    text-shadow: 5px 5px 5px #000000;
+    text-align: center;
+    color: #ffffff;
+    font-family: initial;
+}
+/*Tombol Whatsapp Awal*/
+.tombol-whatsapp {
+    position: fixed;
+    width: 60px;
+    height: 60px;
+    bottom: 125px;
+    right: 40px;
+    background: radial-gradient(circle at top right,  
+    rgb(27, 211, 102) 30%, rgb(35, 168, 55) 70%);
+    color: rgb(255, 255, 255);
+    border-radius: 50px;
+    text-align: center;
+    font-size: 30px;
+    box-shadow: 2px 2px 3px rgb(153, 153, 153);
+    z-index: 100;
+}
+.imgwa {
+    margin-top: 9px;
+}
+/*Ini Akhirnya*/
+/*Tombol Facebook Awal*/
+.tombol-facebook {
+    position: fixed;
+    width: 35px;
+    height: 35px;
+    top: 587px;
+    left: 255px;
+    background: linear-gradient(90deg, rgb(0, 36, 8) 0%, 
+    rgb(10, 35, 146) 0%, rgb(70, 106, 223) 100%);
+    color: rgb(0, 0, 0);
+    border-radius: 50px;
+    text-align: center;
+    font-size: 30px;
+    box-shadow: 2px 2px 3px rgb(153, 153, 153);
+    z-index: 100;
+    margin-bottom: 70px;
+}
+.imgfb {
+    margin-top: 7px;
+}              
+/*Ini Akhirnya*/
+/*Tombol Instagram Awal*/
+.tombol-instagram {
+    position: fixed;
+    width: 35px;
+    height: 35px;
+    bottom: 0px;
+    left: 210px;
+    background: radial-gradient(circle at top right, 
+    rgb(91, 81, 216) 10%, rgb(193, 53, 132) 50%, rgb(253, 29, 29) 70%, rgb(255, 220, 128) 100%);
+    color: rgb(255, 255, 255);
+    border-radius: 50px;
+    text-align: center;
+    font-size: 30px;
+    box-shadow: 1px 1px 3px rgb(0, 0, 0);
+    z-index: 90;
+    margin-bottom: 35px;
+}
+.imgig {
+    margin-top: 7px;
+}   
+/*Ini Akhirnya*/    
+footer { 
+    position: fixed; 
+    bottom: 0; 
+    width: 100%; 
+    height: 65px; 
+    background: rgb(255, 255, 255);
+    opacity: 80%;
+}       
+.p1 {
+    position: fixed;
+    color: rgb(0, 0, 0);
+    padding-top: 50px;
+    padding-left: 25px;
+    font-size: 20px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
